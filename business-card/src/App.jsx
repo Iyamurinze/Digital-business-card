@@ -7,9 +7,11 @@ function App() {
 
   return (
     <div className="container">
-    <div className="profile-picture">
-      <img src="./src/assets/img1.jpg" alt="Jeremie" />
+      <header>
+        <div className="profile-picture">
+      <img src="./src/assets/img1.jpg"/>
     </div>
+    </header>
     <div className="info">
       <h2>Jeremie Iyamurinze</h2>
       <h4>Frontend Developer</h4>
