@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 350px;
+  width: 383px;
   height: 500px;
   color: #fff;
   height: auto;
@@ -36,9 +36,8 @@ header{
 .info {
   text-align: center;
   background-color: #1A1B21;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
   padding-top: 0px;
+  
 }
 
 .info h2 {
@@ -96,8 +95,6 @@ header{
   align-items: center;
 }
 
-
-
 .email-button:hover {
   background-color: #90afd2;
 }
@@ -115,12 +112,14 @@ p{
   margin-right: 5px;
 }
 
+.body{
+  background-color: #1A1B21;
+}
 
 .social-media {
   display: flex;
   justify-content: center;
   gap: 20px;
-  /* background-color: #161619; */
  
 }
 
@@ -146,4 +145,3 @@ footer{
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
 }
-
